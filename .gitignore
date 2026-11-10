@@ -1,0 +1,31 @@
+# Secrets and local env
+.env
+.env.*
+!.env.example
+
+# Resume notes (keep private; not part of the public repo)
+RESUME_BULLETS.md
+
+# Virtualenv and Python caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.Python
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Raw CFBD downloads and large intermediates (rebuild with your own API key)
+data/raw/*
+!data/raw/README.md
+data/processed/*.parquet
+data/processed/*_stdout.txt
+*.parquet
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp

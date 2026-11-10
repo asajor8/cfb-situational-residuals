@@ -1,0 +1,5 @@
+off_bucket,n,success_allowed,expected,def_residual,def_ppa
+FCS/non-FBS,43300,0.3286,0.3795,0.0510,0.0761
+Low-end non-power,129116,0.3945,0.4084,0.0139,-0.0588
+Other FBS,163828,0.4264,0.4235,-0.0028,-0.1348
+Power,302292,0.4328,0.4242,-0.0087,-0.1416
